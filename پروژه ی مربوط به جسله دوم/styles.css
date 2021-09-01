@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "iranisans";
+    src: url('./assets/fonts/FontsFree-Net-ir_sans.ttf')format("truetype");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "iranisans";
+}
+html,body{
+    width: 100%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.contact{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div-title{
+    width: 80%;
+    height: 220px;
+    background-color: #585BFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.div-form{
+    width: 30%;
+    height: 220px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 13px;
+    direction: rtl;
+    text-align: center;
+    padding:0 30px;
+    color: white;
+}
+.title-btn{
+    background-color: #0101AA;
+    color: white;
+    width: 176px;
+    height: 30px;
+    font-size: 12px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 30px;
+}
+.name{
+    margin-top: 10px;
+}
+.input{
+    margin: 5px 0;
+    width: 90%;
+    height: 35px;
+    border:1px solid lightgrey;
+}
+.input::placeholder{
+    font-size: 12px;
+    text-align: center;
+}
+.form-btn{
+    width: 90%;
+    height: 35px;
+    background-color:#4444FF;
+    color: white;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.remember{
+    color: #2E2DEE;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+     
